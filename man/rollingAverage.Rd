@@ -9,6 +9,9 @@ rollingAverage(data, lengthOfRoll)
 \arguments{
 \item{data, }{lengthOfRoll}
 }
+\value{
+rollingAverage
+}
 \description{
 Gets the rolling average for the time period and data specified
 }

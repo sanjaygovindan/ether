@@ -7,7 +7,10 @@
 priceDistribution(data, distribution)
 }
 \arguments{
-\item{data, }{distribution}
+\item{(data, }{distribution)}
+}
+\value{
+newList
 }
 \description{
 Gets the prcing distribution of a dataset
@@ -15,3 +18,5 @@ Gets the prcing distribution of a dataset
 \examples{
 rollingAverage()
 }
+\keyword{analysis}
+\keyword{distribution,}

@@ -5,7 +5,8 @@ library('zoo')
 #' Gets the rolling average for the time period and data specified
 #' @param data, lengthOfRoll
 #' @keywords sma, rolling, average
-#' @export rollingAverage
+#' @return rollingAverage
+#' @export 
 #' @examples
 #' rollingAverage()
 rollingAverage <- function(data, lengthOfRoll){
@@ -16,15 +17,17 @@ return (roll)
 #' Distribution
 #'
 #' Gets the prcing distribution of a dataset
-#' @param data, distribution
-#' @keywords 
-#' @export  data, distribution
+#' @param (data, distribution)
+#' @keywords distribution, analysis
+#' @return newList
+#' @export
 #' @examples
 #' rollingAverage()
 priceDistribution <- function(data, distribution){
   data
   distribution
-  return (data, distribution)
+  newList <- list(data, distribution)
+  return (newList)
 }
 
 
