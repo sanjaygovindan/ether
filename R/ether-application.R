@@ -27,7 +27,7 @@ priceDistribution <- function(data, distribution){
   data
   distribution
   newList <- list(data, distribution)
-  return (newList) 
+  return (newList)
 }
 
 
