@@ -1,4 +1,4 @@
-library('zoo')
+
 
 #' Rolling average
 #'
@@ -6,12 +6,12 @@ library('zoo')
 #' @param data, lengthOfRoll
 #' @keywords sma, rolling, average
 #' @return rollingAverage
-#' @imports zoo
 #' @export 
 #' @examples
 #' rollingAverage()
+library('zoo')
 rollingAverage <- function(data, lengthOfRoll){
-roll <- rollmean(data,lengthOfRoll)
+roll <- zoo::rollmean(data,lengthOfRoll)
 return (roll)
 }
 

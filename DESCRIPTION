@@ -1,7 +1,8 @@
 Package: ether
 Title: What the Package Does (one line, title case)
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Authors@R: person("Sanjay Govinda", "Last", email = "Blanked", role = c("aut", "cre"))
+Imports: zoo
 Description: What the package does (one paragraph).
 Depends: R (>= 3.4.1)
 License: What license is it under?
