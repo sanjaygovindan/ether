@@ -6,6 +6,7 @@ library('zoo')
 #' @param data, lengthOfRoll
 #' @keywords sma, rolling, average
 #' @return rollingAverage
+#' @imports zoo
 #' @export 
 #' @examples
 #' rollingAverage()
