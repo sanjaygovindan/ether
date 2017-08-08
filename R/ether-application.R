@@ -9,7 +9,6 @@
 #' @export 
 #' @examples
 #' rollingAverage()
-library('zoo')
 rollingAverage <- function(data, lengthOfRoll){
 roll <- zoo::rollmean(data,lengthOfRoll)
 return (roll)
